@@ -17,6 +17,26 @@
             </intent-filter>
         </activity>
         <activity android:name=".Home_activity"></activity>
+        <activity
+            android:name=".MenuRestosActivity"
+            android:label="Menus des Restaurants"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RestosPrivesActivity"
+            android:label="Restaurants prives"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="restos_prives" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

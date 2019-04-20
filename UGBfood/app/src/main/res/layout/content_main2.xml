@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/re"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MenuRestosActivity"
+    tools:showIn="@layout/activity_main2">
+
+    <LinearLayout
+        android:id="@+id/menu_restos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginTop="40px"
+            android:layout_marginBottom="70px"
+            android:text="Bienvenue sur l'interfece du menu"
+            android:textAlignment="center"
+            android:textSize="40px"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPublic"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120px"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="20px"
+            android:text="Restaurants publics"
+            android:textAlignment="center"
+            android:textSize="45px"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonround"></Button>
+
+        <Button
+            android:id="@+id/btnPrive"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:text="Restaurants prives"
+            android:textAlignment="center"
+            android:textSize="45px"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:clickable="true"
+            android:background="@drawable/buttonround"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

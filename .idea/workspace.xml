@@ -6,14 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="852f2215-97fa-4492-a974-ba72effe3a5f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/UGBfood/app/src/main/java/com/beniapp/ugbfood/activity_inscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UGBfood/app/src/main/res/layout/activity_inscription.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UGBfood/app/src/main/res/layout/activity_restos_prives.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UGBfood/app/src/main/res/layout/activity_restos_prives.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UGBfood/app/src/main/res/layout/content_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UGBfood/app/src/main/res/layout/content_main2.xml" afterDir="false" />
-    </list>
+    <list default="true" id="852f2215-97fa-4492-a974-ba72effe3a5f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +34,9 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state />
+            <state relative-caret-position="238">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -756,7 +751,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state />
+        <state relative-caret-position="238">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
       </provider>
     </entry>
   </component>

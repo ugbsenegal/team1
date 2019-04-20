@@ -38,11 +38,4 @@ public class MainActivity extends AppCompatActivity {
         };
         timer.start();
     }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (mToggle.onOptionsItemSelected(item))
-            return true;
-        return super.onOptionsItemSelected(item);
-    }
 }

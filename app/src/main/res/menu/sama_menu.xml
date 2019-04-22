@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/db_accueil"
+            android:icon="@drawable/ic_icons8_home"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/db_menu"
+            android:icon="@drawable/ic_resto_24dp"
+            android:title="Restaurant Privé" />
+        <item
+            android:id="@+id/db_menu_pub"
+            android:icon="@drawable/ic_resto_24dp"
+            android:title="Restaurant Public" />
+        <item
+            android:id="@+id/db_connection"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Connexion" />
+    </group>
+</menu>

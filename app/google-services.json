@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727507062984",
+    "firebase_url": "https://team1-99df9.firebaseio.com",
+    "project_id": "team1-99df9",
+    "storage_bucket": "team1-99df9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727507062984:android:b8a992d733e5282f",
+        "android_client_info": {
+          "package_name": "com.beniapp.ugbfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727507062984-kfm03l2g1nsr323ud21etjjqvhrrfgi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpyhor83HlN7g47xHpVyOadBAiQZD7Fjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727507062984-kfm03l2g1nsr323ud21etjjqvhrrfgi8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

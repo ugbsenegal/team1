@@ -32,7 +32,7 @@
     <string name="exmple_txt">Ex:beni@exemple.com</string>
     <string name="tel_txt">+221 78 434 36 97</string>
     <string name="s_inscrire">S\'INSCRIRE</string>
-    <string name="Copyright_txt">La conception et le design de cette application ont été fait par <b>Team1UGB</b> avec l\'aide de <b><i>Dr. Christelle Scharff</i></b></string>
-    <string name="Copyright_txt2">Cette application n\'est affiliée a aucune entreprise ou structure du genre \n Le logo est fait par <i>Team1UGB</i> et les autres images ont été telechargées sur <b><i>Pintres</i></b></string>
+    <string name="Copyright_txt">La conception et le design de cette application ont été faits par <b>Team1UGB</b> avec l\'aide du <b><i>Dr. Christelle Scharff</i></b></string>
+    <string name="Copyright_txt2">Cette application n\'est affiliée à aucune entreprise ou structure du genre \n Le logo est fait par <i>Team1UGB</i> et les autres images ont été telechargées sur <b><i>Pintres</i></b></string>
     <string name="version_app">UGBfood v1.0.0</string>
 </resources>

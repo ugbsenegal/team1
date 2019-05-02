@@ -8,28 +8,16 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
-import com.firebase.ui.auth.AuthUI;
-import java.util.Arrays;
 
-import com.firebase.ui.auth.AuthUI;
-import com.firebase.ui.auth.ErrorCodes;
-import com.firebase.ui.auth.IdpResponse;
-
-import java.util.Arrays;
 
 public class Home_activity extends AppCompatActivity {
-
-    // Identifier for Sign-In Activity
-    private static final int RC_SIGN_IN = 123;
 
     Dialog myDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         myDialog = new Dialog(this);
         CardView card3 = findViewById(R.id.clk_resto_public);
@@ -48,23 +36,14 @@ public class Home_activity extends AppCompatActivity {
 
             }
         });
-
         CardView card1 = findViewById(R.id.clk_se_connecter);
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(
-                        AuthUI.getInstance()
-                                .createSignInIntentBuilder()
-                                .setTheme(R.style.AppTheme)
-                                .setAvailableProviders(
-                                        Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build()))
-                                .setIsSmartLockEnabled(false, true)
-                                .setLogo(R.drawable.sama_logo)
-                                .build(),RC_SIGN_IN);
+                openActivity_connect3();
+
             }
         });
-
     }
 
     public void ShowPopup(View v){
